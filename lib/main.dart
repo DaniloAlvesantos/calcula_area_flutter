@@ -19,8 +19,10 @@ class AreaCalculatorApp extends StatelessWidget {
 }
 
 class AreaCalculatorScreen extends StatefulWidget {
+  const AreaCalculatorScreen({super.key});
+  
   @override
-  _AreaCalculatorScreenState createState() => _AreaCalculatorScreenState();
+  State<AreaCalculatorScreen> createState() => _AreaCalculatorScreenState();
 }
 
 class _AreaCalculatorScreenState extends State<AreaCalculatorScreen> {
